@@ -1,0 +1,10 @@
+rootProject.name = 'virtural-thread-in-action'
+
+
+include(
+        'api:check-api',
+        'api:mvc-api',
+        'api:sleep-api',
+        'api:virtual-api',
+        'api:webflux-api',
+)

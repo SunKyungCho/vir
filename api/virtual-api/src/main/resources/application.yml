@@ -1,0 +1,17 @@
+
+#Tomcat ???, Async, Scheduling ? ? ?????.
+spring:
+  threads:
+    virtual:
+      enabled: true
+  application:
+    name: virtual-api
+
+#spring:
+#  task:
+#    execution:
+#      shutdown:
+#        await-termination: true       # ???? ??? ? ?? ??? ????
+#        await-termination-period: 30s # ?? ? ?? ?? ??
+#      simple:
+#        concurrency-limit: -1         # -1: unllimited
